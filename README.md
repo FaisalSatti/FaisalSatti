@@ -70,4 +70,4 @@
 </td></tr></table>  
 
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=FaisalSatti)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=FaisalSatti&theme=transparent)](https://git.io/streak-stats)
