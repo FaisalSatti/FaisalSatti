@@ -69,4 +69,6 @@
 
 </td></tr></table>  
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=maakbarofficial)](https://www.aliakbar.vercel.app)
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=FaisalSatti&type=png)](https://git.io/streak-stats)
+
