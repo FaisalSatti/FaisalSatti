@@ -69,6 +69,4 @@
 
 </td></tr></table>  
 
-
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=FaisalSatti" alt="GitHub Streak" /></a>
-
+[![GitHub Streak](https://streak-stats.demolab.com/?user=maakbarofficial)](https://www.aliakbar.vercel.app)
