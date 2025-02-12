@@ -12,13 +12,9 @@
 
 <br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
-</picture>
+### 🐍 GitHub Contribution Snake Animation
+![snake gif](https://github.com/your-username/your-username/blob/output/snake.svg)
 
-_generated with [FaisalSatti/snk](https://github.com/FaisalSatti/snk)_
 ## My Skill Set  
 <table><tr><td valign="top" width="33%">
 
