@@ -25,9 +25,10 @@ jobs:
           path: dist/snake.svg
 
       - name: Push animation to the output branch
-        uses: crazy-max/ghaction-github-pages@v3
+        uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
-          target_branch: output
-          build_dir: dist
+          branch: output  # Push to output branch
+          folder: dist
+          clean: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
