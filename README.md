@@ -13,7 +13,7 @@
 <br/>
 
 ### 🐍 GitHub Contribution Snake Animation
-![snake gif](https://github.com/FaisalSatti/FaisalSatti/blob/output/snake.svg)
+![snake gif](https://github.com/FaisalSatti/blob/output/snake.svg)
 
 ## My Skill Set  
 <table><tr><td valign="top" width="33%">
