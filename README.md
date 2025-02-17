@@ -12,7 +12,6 @@
 
 <br/>
 
-
 ![snake gif](https://raw.githubusercontent.com/FaisalSatti/FaisalSatti/main/snake-image.svg)
 
 
