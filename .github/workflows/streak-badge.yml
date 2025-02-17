@@ -3,8 +3,8 @@ name: Generate GitHub Streak Badge
 on:
   push:
     branches:
-      - main  # Trigger the workflow on every push to the main branch
-  workflow_dispatch:  # Allows manual triggering from GitHub UI
+      - main
+  workflow_dispatch:
 
 jobs:
   generate_streak_badge:
@@ -12,23 +12,23 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3  # Checks out the repository
+        uses: actions/checkout@v3
 
       - name: Generate GitHub Streak Badge
-        uses: Platane/snk@v3  # Generates the streak badge
+        uses: Platane/snk@v3
         with:
-          github_user_name: FaisalSatti  # Your GitHub username here
-          outputs: dist/streak.svg  # Save the badge as `streak.svg` in the dist/ folder
+          github_user_name: FaisalSatti
+          outputs: dist/streak.svg
 
       - name: Commit and Push the Streak Badge to Repository
         uses: EndBug/add-and-commit@v7
         with:
-          author_name: 'GitHub Actions Bot'  # Commit author
+          author_name: 'GitHub Actions Bot'
           author_email: 'github-actions[bot]@users.noreply.github.com'
-          message: 'Update GitHub Streak badge'  # Commit message
-          add: 'dist/streak.svg'  # Add the generated SVG file to the commit
+          message: 'Update GitHub Streak badge'
+          add: 'dist/streak.svg'
 
       - name: Push Changes to Repository
-        uses: ad-m/github-push-action@v0.6
+        uses: ad-m/github-push-action@v0.7  # Changed to a working version
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # Pushes the changes using the GitHub token
+          github_token: ${{ secrets.GITHUB_TOKEN }}
