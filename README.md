@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Faisal Satti</h1>
+<h1 align="center">Hi 👋, I'm Faisal Khursheed</h1>
 <img align="right" alt="coding" width="400" src="software-engineer.gif">
 
 
