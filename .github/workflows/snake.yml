@@ -18,12 +18,11 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: snake.svg
 
-      - name: Push animation to the main branch
+      - name: Commit and push the animation to the main branch
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git checkout main
-          mv snake.svg snake.svg  # Ensure the file is in the root directory
           git add snake.svg
           git commit -m "🐍 Update GitHub Contribution Snake animation" || exit 0
           git push origin main
