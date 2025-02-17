@@ -74,5 +74,6 @@
 </td></tr></table>  
 
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=FaisalSatti)]
+
+![GitHub Streak](https://streak-stats.demolab.com?user=FaisalSatti)
 
