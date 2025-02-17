@@ -16,16 +16,15 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg
+          outputs: snake.svg
 
-      - name: Commit and push the animation to main branch
+      - name: Push animation to the main branch
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git checkout main
-          mkdir -p assets  # Ensure assets directory exists
-          mv dist/snake.svg assets/snake.svg
-          git add assets/snake.svg
+          mv snake.svg snake.svg  # Ensure the file is in the root directory
+          git add snake.svg
           git commit -m "🐍 Update GitHub Contribution Snake animation" || exit 0
           git push origin main
         env:
