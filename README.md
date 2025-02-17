@@ -75,5 +75,5 @@
 
 
 
-![GitHub Streak](https://streak-stats.demolab.com?user=FaisalSatti)
+[![GitHub Streak](https://streak-stats.demolab.com?user=FaisalSatti)](https://git.io/streak-stats)
 
