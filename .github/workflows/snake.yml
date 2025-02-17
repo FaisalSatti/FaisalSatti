@@ -18,17 +18,15 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/snake.svg
 
-      - name: Upload the animation
-        uses: actions/upload-artifact@v4  # ✅ Updated to v4
-        with:
-          name: snake
-          path: dist/snake.svg
-
-      - name: Push animation to the output branch
-        uses: JamesIves/github-pages-deploy-action@4.1.1
-        with:
-          branch: output  # Push to output branch
-          folder: dist
-          clean: true
+      - name: Commit and push the animation to main branch
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout main
+          mkdir -p assets  # Ensure assets directory exists
+          mv dist/snake.svg assets/snake.svg
+          git add assets/snake.svg
+          git commit -m "🐍 Update GitHub Contribution Snake animation" || exit 0
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
