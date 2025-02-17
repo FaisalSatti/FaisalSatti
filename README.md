@@ -13,7 +13,8 @@
 <br/>
 
 
-![snake gif](https://raw.githubusercontent.com/FaisalSatti/tree/output/snake.svg)
+
+![snake gif](https://raw.githubusercontent.com/FaisalSatti/output/main/snake.svg)
 ## My Skill Set  
 <table><tr><td valign="top" width="33%">
 
