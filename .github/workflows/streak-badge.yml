@@ -29,6 +29,8 @@ jobs:
           add: 'dist/streak.svg'
 
       - name: Push Changes to Repository
-        uses: ad-m/github-push-action@v0.7  # Changed to a working version
+        uses: stefanzweifel/git-auto-commit-action@v4  # Alternative push action
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: 'Update Streak Badge'
+          branch: main  # Pushes to main branch
+          add: 'dist/streak.svg'  # Path to the file you want to push
